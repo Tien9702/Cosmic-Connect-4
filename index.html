@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+
+    <!--//// NEED FOR ZURB ////////-->
+    <link rel="stylesheet" href="zurb/css/foundation.css" />
+    <link rel="stylesheet" href="zurb/css/app.css" />
+
+    <!-- /// GOOGLE FONTS //////-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+     <!--///// PAGE CONTENT CONTAINER /////-->
+    <main class="grid-container"> <!-- Sides margin -->
+    <!-- ///// FIRST ROW /////-->
+      <section class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+            <h1>Cosmic Connect 4</h1>
+            <h4 class="margin">Bridging Stars, Building Strategies</h4>
+        </div>
+      </section>
+        
+    <!-- ///// ROW 2 /////-->
+      <section class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <nav>
+            <ul>
+              <li><a href="index.html" class="current">Home</a></li>
+              <li><a href="doc.html">Documentation</a></li>
+          </ul>
+         </nav>
+       </div>
+      </section>
+
+    <!-- Here I surrouned my js sketch with the id div talk. Again I call it portrait in my sketch.js, so it's portrait here -->
+      <div id="portrait">
+        <script src="sketch.js"></script>
+        <script src="hasWon.js"></script>
+        <script src="setGradient.js"></script>
+        <script src="keyPressed.js"></script>
+        <script src="drawStar.js"></script>
+        <script src="setTurn.js"></script>
+      </div>
+      
+        <!-- <section class="margin-1 cell">
+          <h5>Instructions</h5>
+          <p>Play it like the original Connect Four using our custom made box.</p>
+          <p>Alternative Controls:</p>
+          <ul>
+            <li>Left Arrow - 1st column</li>
+            <li>Up Arrow - 2nd column</li>
+            <li>Down Arrow - 3rd column</li>
+            <li>Right Arrow - 4th column</li>
+            <li>D - 5th column</li>
+            <li>A - 6th column</li>
+            <li>W - 7th column</li>
+          </ul>
+        </section> -->
+      </main>
+        <!-- <script src = "p5library/p5.js"></script>
+        <script src = "p5library/p5.sound.min.js"></script> -->
+
+
+    <!-- ///// NEED FOR ZURB ///// -->
+      <script src="zurb/js/vendor/jquery.js"></script>
+      <script src="zurb/js/vendor/what-input.js"></script>
+      <script src="zurb/js/vendor/foundation.js"></script>
+      <script src="zurb/js/app.js"></script>
+    <!-- //// -->
+  </body>
+</html>
